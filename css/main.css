@@ -1,0 +1,331 @@
+	/* Large Devices, Wide Screens */
+	@media only screen and (max-width : 1200px) {
+
+	}
+
+	/* Medium Devices, Desktops */
+	@media only screen and (max-width : 992px) {
+
+	}
+
+	/* Small Devices, Tablets */
+	@media only screen and (max-width : 768px) {
+
+	}
+
+	/* Extra Small Devices, Phones */ 
+	@media only screen and (max-width : 480px) {
+
+	}
+
+	/* Custom, iPhone Retina */ 
+	@media only screen and (max-width : 320px) {
+
+	}
+
+
+/***************************************
+			Font Styles
+***************************************/
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/roboto/Roboto-Thin.ttf);
+    font-weight: 200;
+}
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/roboto/Roboto-Light.ttf);
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/roboto/Roboto-Regular.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/roboto/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url(../font/roboto/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+body {
+	font-family: "Roboto", Arial, Sans-Serif;
+	font-weight: 300;
+}
+
+.wrapper {
+	margin: 0px auto;
+	width: 1000px;
+}
+
+
+/***************************************
+			Header Styles
+***************************************/
+header {
+	background-color: #33a6dd;
+	position: fixed;
+		top: 0px;
+		left: 0px;
+	width: 100%;
+	z-index: 1;
+}
+
+	header.sticky {
+		-webkit-box-shadow: 0px 0px 10px #363636;
+		-moz-box-shadow: 0px 0px 10px #363636;
+		box-shadow: 0px 0px 10px #363636;
+		-webkit-transition: all 1s linear;
+		-o-transition: all 1s linear;
+		-moz-transition: all 1s linear;
+		-ms-transition: all 1s linear;
+		-kthtml-transition: all 1s linear;
+		transition: all 1s linear;
+	}
+
+	div#mastHead {
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+	}
+
+		nav#mainNav {
+			height: 100%;
+		}
+
+			nav#mainNav ul {
+				display: block;
+				float: right;
+				font-size: 1em;
+				list-style-type: none;
+				margin: 0px 0px 0px 0px;
+				padding: 0px 0px 0px 0px;
+				position: relative;
+			}
+
+				nav#mainNav li {
+					color: #ffffff;
+					cursor: pointer;
+					display: inline-block;
+					padding: 20px 20px;
+					text-decoration: none;
+				}
+
+/***************************************
+			Body Styles
+***************************************/
+section {}
+
+	article {}
+
+section#main {
+	background-color: #33a6dd;
+	height: 400px;
+}
+	img.logo {
+		position: relative;
+			top: 107px;
+			left: 0px;
+	}
+
+	article#bio {
+		background-color: #607f8d;
+		color: #ffffff;
+		float: right;
+		font-size: 1.2em;
+		padding: 10px 25px;
+		position: relative;
+			top: 303px;
+			left: 0px;
+		width: 400px;
+	}
+
+section#about {
+	background-color: #ffffff;
+	padding: 150px 0px 0px 0px;
+	margin: 0px 0px 50px 0px;
+}
+
+	div.aboutIcon {
+		height: 200px;
+	}
+
+	div.aboutText {
+		height:302px;
+	}
+
+		div.aboutIcon div,
+		div.aboutText div {
+			float: left;
+			font-size: 1.3em;
+			margin: 0% 4%;
+			min-height: 200px;
+			text-align: center;
+			width: 25%;
+		}
+
+		div.aboutIcon div.leftBox {
+			background: url(../img/computer.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 150px 150px;
+		}
+
+		div.aboutIcon div.centerBox {
+			background: url(../img/refresh.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 150px 150px;
+
+		}
+
+		div.aboutIcon div.rightBox {
+			background: url(../img/communicate.png);
+			background-position: center;
+			background-repeat: no-repeat;
+			background-size: 150px 150px;
+
+		}
+
+		div.aboutText h6 {
+			font-size: 1.0em;
+			margin: 10px 0px 10px 0px;
+			padding: 0px 0px 0px 0px;
+		}
+
+section#skills {
+	background-color: #465b66;
+	color: #ffffff;
+	padding: 50px 0px 75px 0px;
+}
+
+	section#skills h1 {
+		margin: 0% 0% 0% 0%;
+		text-align: left;
+	}
+
+	section#skills p {
+		margin: 2% 25% 2% 0%;
+		text-align: left;
+	}
+
+	section#skills .skillLogo {
+		display: inline-block;
+		margin: 5% 10%;
+		width: 286px;
+	}
+
+section#work {
+	background-color: #465b66;
+	color: #ffffff;
+	padding: 50px 0px 75px 0px;
+}
+
+	section#work h1 {
+		margin: 0% 0% 0% 0%;
+		text-align: left;
+	}
+
+	section#work p {
+		margin: 2% 25% 2% 0%;
+		text-align: left;
+	}
+
+	section#work .gallery {
+		background: rgba(0,0,0,0.8);
+		display: none;
+		height: 100%;
+		position: fixed;
+			left: 0px;
+			top: 0px;
+		text-align: center;
+		width: 100%;
+		z-index: 9999;
+	}
+
+	section#work .gallery img {
+  		float: left;
+		margin: 2% 5% 0% 15%;
+ 		max-height: 95%;
+ 	}
+
+	section#work .galDesc {
+		font-size: 1.5em;
+  		margin: 10% 5% 0% 0%;
+  		text-align: left;
+	}
+
+	section#work .gallerySmall img {
+		margin: 0% 1%;
+		width: 227px;
+	}
+
+	section#work a.gallery {
+		color: inherit;
+		text-decoration: none;
+	}
+
+	section#work .gallery:target {
+		display: block;
+		outline: none;
+	}
+
+	section#work .descLink {
+		margin: 1% 1% 0%;
+		padding: 0px;
+		text-align: center;
+		width: 227px;
+	}
+
+section.fact {
+	height: 400px;
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.fact.img1 {
+	background-image: url(../img/quorraBackground.jpg);
+}
+
+section.fact.img2 {
+	background-image: url(../img/androidBackground.jpg);
+}
+
+section.fact.img3 {
+	background-image: url(../img/tinkeringBackground.png);
+}
+
+section.fact.img4 {
+	background-image: url(../img/gamingBackground.jpg);
+}
+
+	section.fact .funFact {
+		background-color: #607f8d;
+		color: #ffffff;
+		float: right;
+		font-size: 1.2em;
+		padding: 10px 25px;
+		position: relative;
+			top: 140px;
+			left: 0px;
+		width: 400px;
+	}
+
+
+/***************************************
+			Footer Styles
+***************************************/
+footer {}
