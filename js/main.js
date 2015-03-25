@@ -7,7 +7,7 @@ $(document).ready(function() {
 	$('#mainNav li').click(function(){
 		var navLink = $(this).attr('name');
 		$('html, body').animate({
-			scrollTop: $('#' + navLink).offset().top
+			scrollTop: $('#' + navLink).offset().top - 10
 		}, 1000);
 	});
 
