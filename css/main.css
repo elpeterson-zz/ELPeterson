@@ -101,6 +101,14 @@ header {
 			height: 100%;
 		}
 
+			nav .logo {
+				color: #ffffff;
+				float: left;
+				font-family: courier;
+				font-size: 3.2em;
+				font-weight: bold;
+			}
+
 			nav#mainNav ul {
 				display: block;
 				float: right;
@@ -223,6 +231,11 @@ section#skills {
 		width: 286px;
 	}
 
+		section#skills .skillLogo .gitHub {
+			float: center;
+			width: 286px;
+		}
+
 section#work {
 	background-color: #465b66;
 	color: #ffffff;
@@ -285,8 +298,12 @@ section#work {
 		width: 227px;
 	}
 
+section#philos {
+	background-color: #ffffff;
+	color: #465b66;
+}
+
 section.fact {
-	height: 400px;
 	background-position: 50% 50%;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -294,6 +311,11 @@ section.fact {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	display: table-cell;
+	vertical-align: middle;
+	height: 400px;
+
+	width: 1%;
 }
 
 section.fact.img1 {
@@ -315,12 +337,10 @@ section.fact.img4 {
 	section.fact .funFact {
 		background-color: #607f8d;
 		color: #ffffff;
+		display: inline-block;
 		float: right;
 		font-size: 1.2em;
 		padding: 10px 25px;
-		position: relative;
-			top: 140px;
-			left: 0px;
 		width: 400px;
 	}
 
